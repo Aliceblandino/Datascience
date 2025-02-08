@@ -1,0 +1,76 @@
+/* Impostazioni generali */
+.reveal {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* Blu chiaro armonizzato */
+    color: #222;
+}
+
+/* Titoli */
+.reveal h1 {
+    color: #004080; /* Blu più scuro per contrasto */
+    font-size: 2.2em; /* Più piccolo per entrare nelle slide */
+    font-weight: bold;
+    text-align: left;
+}
+
+.reveal h2 {
+    color: #0056b3; /* Blu intermedio */
+    font-size: 1.8em; /* Più piccolo per adattarsi */
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.reveal h3 {
+    color: #0074D9;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* Testo */
+.reveal p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Tabelle */
+/* .reveal table {
+    width: 90%;
+    margin: 15px auto;
+    border-collapse: collapse;
+} */
+.reveal table td:first-child, 
+.reveal table th:first-child {
+    font-size: 0.7em; /* Testo più piccolo */
+    width: 5%;
+}
+
+/* Centrare il testo in tutte le colonne */
+.reveal table td, 
+.reveal table th {
+    text-align: center;
+}
+
+.reveal th, .reveal td {
+    border: 1px solid #bbb;
+    padding: 8px;
+    text-align: left;
+}
+
+.reveal th {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Grafici */
+.reveal div.output_png {
+    display: flex;
+    justify-content: center;
+}
+
+/* Nasconde il codice nelle slide */
+div.input {
+    display: none !important;
+}
